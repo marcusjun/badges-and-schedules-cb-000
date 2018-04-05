@@ -12,10 +12,10 @@ end
 def assign_rooms(attendees)
   #room=1
   attendees.each_with_index do |name,index|
-    attendees[index]="Hello, #{name}! You'll be assigned to room ${index+1}!"
+    attendees[index]="Hello, #{name}! You'll be assigned to room #{}{index+1}!"
 
   end
-    #{}"Hello, #{name}! You'll be assigned to room ${room}!"
+    #{}"Hello, #{name}! You'll be assigned to room #{room}!"
     #room+=1
   #end
   #attendees.collect{|name| }
